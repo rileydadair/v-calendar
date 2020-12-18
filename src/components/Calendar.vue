@@ -90,23 +90,35 @@ export default {
     .vc-day-content:not(.highlight-class) {
       color: var(--gray-400);
     }
+
+    .vc-container {
+      width: 545px !important;
+    }
+    
+    .vc-grid-cell {
+      min-height: 64px !important;
+    }
+
+    .vc-day-content {
+      min-height: 64px;
+    }
   }
 
   .vc-title {
     pointer-events: none;
   }
 
-  .vc-container {
+  /* .vc-container {
     width: 545px !important;
-  }
+  } */
   
-  .vc-grid-cell {
+  /* .vc-grid-cell {
     min-height: 64px !important;
-  }
+  } */
 
-  .vc-day-content {
+  /* .vc-day-content {
     min-height: 64px;
-  }
+  } */
   
   .vc-day-content, .vc-highlight {
     border-radius: 4px !important;

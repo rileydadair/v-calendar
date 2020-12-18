@@ -1,5 +1,5 @@
 <template>
-  <div class="chl-datepicker">
+  <div class="chl-datepicker chl-datepicker-customer">
     <vc-date-picker
       ref="datepicker"
       v-model="date"
@@ -98,7 +98,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss"> 
   .chl-datepicker {
     button {
       cursor: pointer;

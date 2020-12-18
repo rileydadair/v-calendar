@@ -82,7 +82,7 @@ export default {
     * Need to hook into lifecycle method
     */
     selectedCalendarId(id) {
-      console.log(id);
+      // console.log(id);
     }
   },
   methods: {
@@ -90,7 +90,7 @@ export default {
       console.log('onChange')
     },
     onDayClick(day) {
-      console.log(day)
+      // console.log(day)
       // Check if date exists with id
       const index = this.days.findIndex(d => {
         return d.toString() == day.date.toString();
@@ -100,10 +100,10 @@ export default {
       }
     },
     onDayFocusin(day) {
-      console.log(day.id)
+      // console.log(day.id)
     },
     updateSelectedDay(id, el) {
-      console.log(id)
+      // console.log(id)
       this.$store.commit('updateDatePickerId', id);
     }
   }
