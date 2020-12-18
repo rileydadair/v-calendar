@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <div class="container">
-      <h1>Customer Date Picker</h1>
+      <h1>Booking - Customer Facing Date Picker</h1>
       <div class="flex p-25 justify-center">
         <DatePicker/>
       </div>
-      <h1>Employee Calendar & Date Picker</h1>
+      <h1>Tour Admin - Employee Facing Calendar & Date Picker</h1>
       <div class="flex p-25">
         <Calendar/>
         <EmployeeDatePicker/>
